@@ -1,0 +1,66 @@
+.clock{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+    position:relative;
+}
+.clock > div{
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  left:50%;
+  top:calc(50% - 20px);
+  transform:translate(-50%, calc(-50% - 20px));
+  margin-top:40px;
+}
+.b12{
+  top:0% !important;
+}
+.b1{
+  left:70% !important;
+  top:9.09% !important;
+}
+.b2{
+  left:85% !important;
+  top:24.18% !important;
+}
+.b3{
+  left:90% !important;
+  /* top:50% !important; */
+}
+.b4{
+  left:85% !important;
+  top:60% !important;
+}
+.b5{
+  left:70% !important;
+  top:77% !important;
+}
+.b6{
+  left:50% !important;
+  top:82% !important;
+}
+.b7{
+  left:30% !important;
+  top:77% !important;
+}
+.b8{
+  left:17% !important;
+  top:60% !important;
+}
+.b9{
+  left:10% !important;
+}
+.b10{
+  left:15% !important;
+  top:24.18% !important;
+}
+.b11{
+  left:29% !important;
+  top:9.09% !important;
+}
+.dot{
+  font-size: 30px !important;
+  font-weight: 900;
+}
